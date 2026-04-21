@@ -1,0 +1,16 @@
+﻿namespace TextEditorLab.Models
+{
+    public enum TokenType
+    {
+        Number,
+        Identifier,
+        Whitespace,
+        Operator,
+        TernaryQuestion,
+        TernaryColon,
+        Semicolon,
+        LeftParen,
+        RightParen,
+        Error
+    }
+}
